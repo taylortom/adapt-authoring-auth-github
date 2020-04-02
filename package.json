@@ -1,0 +1,13 @@
+{
+  "name": "adapt-authoring-giithubauth",
+  "version": "0.0.1",
+  "description": "Module which implements authentication with Github",
+  "homepage": "https://github.com/adapt-security/adapt-authoring-githubauth",
+  "main": "index.js",
+  "peerDependencies": {
+    "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
+    "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
+  },
+  "dependencies": {
+  }
+}
