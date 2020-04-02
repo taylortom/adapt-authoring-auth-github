@@ -1,5 +1,5 @@
 {
-  "name": "adapt-authoring-giithubauth",
+  "name": "adapt-authoring-githubauth",
   "version": "0.0.1",
   "description": "Module which implements authentication with Github",
   "homepage": "https://github.com/adapt-security/adapt-authoring-githubauth",
@@ -9,5 +9,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
+    "axios": "0.19.2",
+    "grant-express": "4.7.0"
   }
 }
