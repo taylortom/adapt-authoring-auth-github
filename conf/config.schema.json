@@ -2,6 +2,11 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "provider": {
+      "description": "Name of the OAuth provider",
+      "type": "string",
+      "default": "github"
+    },
     "clientID": {
       "description": "ID of the GitHub OAuth app",
       "type": "string"
@@ -11,5 +16,5 @@
       "type": "string"
     }
   },
-  "required": ["clientID", "clientSecret"]
+  "required": ["provider", "clientID", "clientSecret"]
 }
