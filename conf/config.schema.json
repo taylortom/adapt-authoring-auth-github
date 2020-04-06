@@ -2,6 +2,14 @@
   "$schema": "http://json-schema.org/draft-07/schema#",
   "type": "object",
   "properties": {
+    "clientID": {
+      "description": "ID of the GitHub OAuth app",
+      "type": "string"
+    },
+    "clientSecret": {
+      "description": "Secret used by the GitHub OAuth app",
+      "type": "string"
+    },
     "sessionCollection": {
       "description": "Name of the database collection used to store user session data",
       "type": "string",
@@ -27,5 +35,5 @@
       "default": 604800000
     }
   },
-  "required": ["sessionSecret"]
+  "required": ["clientID", "clientSecret", "sessionSecret"]
 }
