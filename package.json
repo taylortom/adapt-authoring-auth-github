@@ -2,7 +2,9 @@
   "name": "adapt-authoring-githubauth",
   "version": "0.0.1",
   "description": "Module which implements authentication with Github",
-  "homepage": "https://github.com/adapt-security/adapt-authoring-githubauth",
+  "homepage": "https://github.com/taylortom/adapt-authoring-githubauth",
+  "license": "GPL-3.0",
+  "repository": "github:taylortom/adapt-authoring-githubauth",
   "main": "index.js",
   "peerDependencies": {
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
