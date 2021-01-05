@@ -11,7 +11,7 @@
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "axios": "0.19.2",
+    "axios": "0.21.1",
     "grant-express": "4.7.0"
   }
 }
