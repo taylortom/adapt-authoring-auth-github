@@ -14,6 +14,14 @@
     "clientSecret": {
       "description": "Secret used by the GitHub OAuth app",
       "type": "string"
+    },
+    "registerUserWithRoles": {
+      "description": "If no user account matches the GitHub profile then create an account with the given roles",
+      "type": "array",
+      "items": { "type": "string" },
+      "default": [
+        "contentcreator"
+      ]
     }
   },
   "required": ["provider", "clientID", "clientSecret"]
