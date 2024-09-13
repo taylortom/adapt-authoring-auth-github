@@ -6,12 +6,13 @@
   "license": "GPL-3.0",
   "repository": "github:taylortom/adapt-authoring-githubauth",
   "main": "index.js",
+  "type": "module",
   "peerDependencies": {
     "adapt-authoring-auth": "github:adapt-security/adapt-authoring-auth.git",
     "adapt-authoring-core": "github:adapt-security/adapt-authoring-core.git"
   },
   "dependencies": {
-    "axios": "0.19.2",
-    "grant-express": "4.7.0"
+    "passport": ">= 0.0.0",
+    "passport-github2": ">= 0.0.0"
   }
 }

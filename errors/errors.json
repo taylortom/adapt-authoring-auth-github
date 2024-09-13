@@ -1,0 +1,9 @@
+{
+  "GITHUB_AUTH": {
+    "data": {
+      "error": "The error message"
+    },
+    "description": "The auth token nbf is after the current time, and the token is therefore not valid",
+    "statusCode": 401
+  }
+}

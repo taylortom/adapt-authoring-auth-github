@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$anchor": "githubauthuser",
+  "description": "GitHub authentication user",
+  "$merge": {
+    "source": { "$ref": "user" },
+    "with": {
+      "properties": {
+        "isTempLocked": {
+          "description": "Whether the user account has been temporarily locked",
+          "type": "boolean",
+          "default": false,
+          "isReadOnly": true
+        },
+        "isPermLocked": {
+          "description": "Whether the user account has been permanently locked",
+          "type": "boolean",
+          "default": false,
+          "isReadOnly": true
+        }
+      }
+    }
+  }
+}
